@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap Forms and Navbar</title>
+    <style>
+        body{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://play-lh.googleusercontent.com/OwiIxkQhT3F-zukYQJGQKTDaJrj0ub-gku-nn2vEOszKWHMLa87D060lRIVZxQYMzAjRpAHb4wM8Iix9Tn_gfA" style="height: 70px; width: 70px;" class="rounded"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>    
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+    <div class="col-md-4">
+    <form class="text-center bg-white rounded p-5">
+        <h1 class="bg-white text-center rounded">Contact Us</h1>
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Full Name......."> 
+        </div>
+         <div class="mb-3">
+            <label class="form-label">Email</label>
+                <input type="Email" class="form-control" placeholder="john/janedoe@gmail.com......."> 
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Subject</label>
+                <input type="text" class="form-control" placeholder="Subject......"> 
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+                <input type="text" class="form-control" placeholder="Full Name......." style="height: 140px;"> 
+        </div>
+        <input type="submit" class="btn btn-primary">
+    </form>
+    </div>
+    </div>
+    </div>
+</div>
+
+<br>    
+<footer class="bg-dark text-center pd-5 pb-4" style="padding-top: 10px;">
+    <h1 class="fw-bold text-white">OBMC Center</h1>
+</footer>
+</body>
+</html>
